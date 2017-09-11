@@ -1,0 +1,87 @@
+
+
+/*  reset          */
+html *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header section   */
+header{
+    height: 55px;
+    width: 100%;
+    position: relative;
+
+}
+.logo{
+    width: 25%;
+    height: 95%;
+    background-image: url("../assets/imgs/Umazed-logo.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 35%;
+    left: 2%;
+}
+.log{
+
+    position: absolute;
+    right: 2%;
+    top: 35%;
+    vertical-align: middle;
+
+}
+.log span{
+    padding:2px 30px;
+    color: #ECE0E0;
+}
+#log-on{
+    padding: 2px 30px;
+    background-color:#884f96;
+
+}
+#sign-on{
+    padding: 2px 30px;
+    background-color:#29aea8;
+}
+
+/* body section */
+section{
+    width: 100%;
+    height: auto;
+    border: 1px solid lightgreen;
+}
+.section-1{
+    height: 300px;
+    width: 100%;
+    background-color: #22af8e;
+}
+.level-1{
+    height: 50%;
+    width: 70%;
+    border:1px solid red;
+    background-color: lightgrey;
+    margin: auto;
+}
+.image-content{
+    height: 250px;
+    width: 50%;
+    background-image: url("../assets/imgs/Illustrations-Elements-01.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+.level-2{
+    height: 50%;
+    border:1px solid red;
+}
+
+
+/* footer section */
+footer{
+    height: 80px;
+    width: 100%;
+    background-color: #2e4052;
+
+}
